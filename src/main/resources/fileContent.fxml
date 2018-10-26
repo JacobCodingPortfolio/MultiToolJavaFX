@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="fileMainAnchor" prefHeight="375.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="filePath" layoutX="16.0" layoutY="32.0" prefHeight="33.0" prefWidth="376.0" />
+      <TextField fx:id="fileSearch" layoutX="16.0" layoutY="93.0" prefHeight="33.0" prefWidth="265.0" />
+      <TextArea fx:id="fileLogs" layoutX="14.0" layoutY="161.0" prefHeight="200.0" prefWidth="569.0" />
+      <Label layoutX="16.0" layoutY="14.0" text="Sciezka" />
+      <Label layoutX="16.0" layoutY="76.0" text="Szukajka" />
+      <Label layoutX="16.0" layoutY="144.0" text="Logi" />
+      <TextField fx:id="fileExtension" layoutX="401.0" layoutY="32.0" prefHeight="33.0" prefWidth="185.0" />
+      <Label layoutX="401.0" layoutY="14.0" text="Rozszerzenie" />
+      <Button fx:id="search" layoutX="401.0" layoutY="93.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="185.0" text="Szukaj" />
+      <ProgressBar fx:id="fileProgress" layoutX="286.0" layoutY="93.0" prefHeight="33.0" prefWidth="106.0" progress="0.0" />
+   </children>
+</AnchorPane>
